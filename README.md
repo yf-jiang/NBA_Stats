@@ -1,9 +1,7 @@
+# NBA_Stats
+
 This is the Final Project for STA 141B in Winter 2021 by Yifeng Jiang
 
-The app contains four tabs:
+This Shinny app contains the following feature:
 
-Team Info: User can choose a team, and the output will be the current players, basic informations, team logo, and a map for the address of the stadium.
-
-Player Info: User can choose a team, and one of its player. Then the app will show the player's photo, basic information, and game information in season 2020.
-
-Player Comparison: User need to choose two players, and there will be two histogram comparing the game stats and shooting stats of them.
+Player Comparison: The user is asked to choose two players, and a table contains the statistics of two selected players in season 2020-2021 will be shown along with a radar plot that compare two players' statistics in Points, Rebounds, Assists, Steals, and Blocks.
