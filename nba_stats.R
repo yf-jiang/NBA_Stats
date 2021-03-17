@@ -88,12 +88,14 @@ server <- function(input, output) {
                 c(curr_data %>% pull(LastName)) %>% unique %>% sort())
   })
   
+  
   # Select second player
   output$teamplayer2 <- renderUI({
     curr_data <- players %>% filter(players$Team %in% input$team2)
     selectInput("teamplayer2", "Player", 
                 c(curr_data %>% pull(LastName)) %>% unique %>% sort())
   })
+  
   
   # Statistics table of two players
   output$comparison_table <- renderTable({
@@ -119,6 +121,7 @@ server <- function(input, output) {
       
       tbl <- rbind(player1, player2) %>% as.data.frame()
   })
+  
   
   # Radar plot of statistics by user choice
   output$radar_plot <- renderUI({

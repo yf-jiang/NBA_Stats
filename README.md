@@ -1,6 +1,10 @@
 # NBA_Stats
 
-This is the Final Project for STA 141B in Winter 2021 by Yifeng Jiang
+This is the Final Project for STA 141B in Winter 2021 by Yifeng Jiang.
+
+The players' statistics data used in this project is obtained from the API of https://sportsdata.io
+
+The project can be viewed on https://yifjiang.shinyapps.io/NBA_Stats/
 
 This Shinny app contains the following feature:
 
